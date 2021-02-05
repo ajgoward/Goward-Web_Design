@@ -23,7 +23,7 @@ body{font-family: 'Roboto', sans-serif;}
      }
 
 .container-callout { height: 100vh;
- background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed; 
+ background: url("../images/land.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,7 +61,7 @@ body{font-family: 'Roboto', sans-serif;}
 
 /*navbar */
 .navalert-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
