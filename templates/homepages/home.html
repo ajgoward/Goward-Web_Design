@@ -1,0 +1,297 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+<div class="hero-banner container-fluid landing-image" id="home">
+  <div class="opaque-overlay">&nbsp;</div>
+  <div class="row">
+    <div class="col-12">
+      <section class="callout jumbotron text-center " id="div1">
+        <h1 class="jumbotron-header main-title">Welcome To Goward Web Design</h1>
+        <hr class="linebreak">
+        <p class="lead text-white">
+          Where You Can Get A Custom Website Without Breaking The Bank
+        </p>
+        {% if displayMessage %}
+        <div class="lead text-white" role="alert">
+          <p>{{ displayMessage }}</p> <br>
+          <p>{{ message2 }}</p>
+        </div>
+        {% else %}
+        <a href="#contact" class="btn btn-lg btn--cta btn--blue">
+          Contact Us Today
+        </a>
+        <p class="text-muted">
+          <small>We Endeavor To Reply The Same Day</small>
+        </p>
+        {% endif %}
+      </section>
+    </div>
+  </div>
+
+</div>
+
+<div class="container-wrapper background-white ">
+  <div class="container content-container " id="about">
+    <div class="row ">
+      <div class="col-12 page-header" id="slide">
+        <h1 class="text-uppercase">About Us</h1>
+        <hr class="linebreak">
+      </div>
+    </div>
+    <div class="fadeinleft">
+      <div class="col-12 text-center ">
+        <p>
+          Goward Web Design is a Northwich web design company specialising in creating bespoke websites and
+          applications that fit your business/personal requirements.<br><br> Our websites are built:
+        </p>
+
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card border-0">
+            <img src="../static/images/you1.jpg" class=" card-img-top sizes" alt="..."></li>
+            <div class="card-body">
+              <h5 class="card-title">With You In Mind</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card border-0">
+            <img src="../static/images/endless2.jpg" class="img-fluid card-img-top sizes" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">From scratch so the customisation opportunities are endless.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card border-0">
+            <img src="../static/images/bignsmall.jpg" class="card-img-top sizes text-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">As big and as small as your business requires, from single page websites to full
+                Ecommerce
+                sites we have options to suit you.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row text-center">
+        <div class="col text-center">
+          <div class="card border-0">
+            <img src="../static/images/mobile.jpg" class="card-img-top sizes" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mobile First, this means we start building the application mobile friendly first as
+                this gives the best
+                reach to users.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-wrapper--blue container-wrapper">
+  <div class="container content-container " id="about">
+
+
+    <h1 class="text-center">
+      So What Does this mean for you?
+    </h1>
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="card border-0">
+          <i class="fas fa-code"></i>
+          <div class="card-body">
+            <h5 class="card-title">Custom websites give you complete control. You can choose every part of the
+              design and each
+              feature. You can also ask us to use a familiar programming language or technology..</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="card border-0">
+          <i class="fas fa-seedling"></i>
+          <div class="card-body">
+            <h5 class="card-title">You get flexibility as your site can grow with your business. Since you’re not
+              tied to any
+              template’s structure like the common DIY website builders, you can have your website expanded or even
+              get
+              the whole design changed easily.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="card border-0">
+          <i class="fas fa-users"></i>
+          <div class="card-body">
+            <h5 class="card-title"> Choosing a website web design also works better for bigger websites. For
+              example, you can have
+              a robust online store made from scratch that has all the functionality your shoppers will appreciate.
+              While you can create a simple online store with a template, you will likely run into limitations.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="card border-0">
+          <i class="fab fa-searchengin"></i>
+          <div class="card-body">
+            <h5 class="card-title">Our Websites are built with SEO (search engine optimisation) in mind so we can
+              help you get
+              towards the
+              top of the needed searches. Also, we can help you better promote such a site.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="card border-0">
+          <i class="fas fa-history"></i>
+          <div class="card-body">
+            <h5 class="card-title">We offer 24/7 support during the build of the website and at a monthly fee after
+              we will
+              maintain the
+              website and redesign if needed.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class=" container-wrapper background-white">
+  <div class=" container content-container">
+    <div class="row">
+      <div class="col-12 page-header" id="projects">
+        <h1 class="text-uppercase">Projects</h1>
+        <hr class="linebreak">
+      </div>
+    </div>
+    <section class="features">
+
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card border-0">
+            <img src="../static/images/daily-2.png" class=" card-img-top " alt="..."></li>
+            <div class="card-body">
+              <h2 class="card-title text-uppercase">Daily Comic</h2>
+              <p>This is Full Stack Ecommerce application using HTML5, CSS3, JAVASCRIPT,
+                JQUERY , PYTHON3 , POSTGRESQL, AWS, DJANGO and STRIPE payments. Alowing Users to
+                Buy comics online, also this allows users to create a profile to save their delivery
+                information and view previous orders. As well as That the Admin of the site can Create, Update
+                and
+                Delete
+                products by signing in </p>
+              <a href="http://daily-comic-1.herokuapp.com/" target="_blank" rel="noopener"
+                class="btn btn-lg btn--cta btn--blue">
+                View Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card border-0">
+            <img src="../static/images/daddys.png" class=" card-img-top " alt="..."></li>
+            <div class="card-body">
+              <h2 class="card-title text-uppercase">Daddys Recipes</h2>
+              <p>This is a application which allows users to use Create, Read, Update and Delete functionality.
+                This
+                project is writen
+                in HTML5, CSS3, JQUERY, PYTHON3 in which I used a database called MONGODB and The FLASK
+                framework. To allow users login, create recipes, edit recipes and delete recipes. </p>
+              <a href="http://daddiesrecipes.herokuapp.com/home" target="_blank" rel="noopener"
+                class="btn btn-lg btn--cta btn--blue">
+                View Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card border-0">
+            <img src="../static/images/boutique.png" class=" card-img-top " alt="..."></li>
+            <div class="card-body">
+              <h2 class="card-title text-uppercase">Boutique</h2>
+
+
+
+              <p>This is Full Stack Ecommerce application using HTML5, CSS3, JAVASCRIPT,
+                JQUERY , PYTHON3 , POSTGRESQL, AWS, DJANGO and STRIPE payments. Alowing Users to
+                Buy clothing products online, also this allows users to create a profile to save their delivery
+                information and view previous orders. As well as That the Admin of the site can Create, Update
+                and
+                Delete
+                products by signing in </p>
+              <a href="https://boutique-ado-ajg.herokuapp.com/" target="_blank" rel="noopener"
+                class="btn btn-lg btn--cta btn--blue text-center">
+                View Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  </section>
+</div>
+</div>
+<div class="container-fluid contact-image container-callout">
+  <div class="opaque-overlay">&nbsp;</div>
+  <div class="row">
+    <div class="col-12" id="div1">
+      <section class="mb-4 callout jumbotron text-center contact-form" id="contact">
+        <h1 class="mb-3">Contact Us</h1>
+
+
+        <form id="contactForm" class="contact-text" name="sendmessage" method="POST">
+          <div class="row g-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your Name" name='name' aria-label="Name" required>
+            </div>
+          </div>
+          <div class="mb-3 row mt-3">
+            <div class="col">
+              <input type="email" class="form-control"  name='email' aria-describedby="emailHelp"
+                placeholder="Email Address" required>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <textarea rows="5" name="message" class="form-control" placeholder="Message"
+                required></textarea>
+              <button type="submit" id="contactButton"
+                class="btn btn-lg center-block mt-3 btn--blue rounded-3 btn--cta">Send
+                Request</button>
+            </div>
+          </div>
+
+        </form>
+
+
+
+
+      </section>
+    </div>
+  </div>
+  <!--Section: Contact v.2-->
+
+  <!--Section: Contact v.2-->
+
+</div>
+
+{% endblock %}

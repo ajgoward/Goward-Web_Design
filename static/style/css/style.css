@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap');
+
+body{font-family: 'Poppins', sans-serif;}
+
+/*navbar */
+.navalert-container {
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.background-white{
+    background-color: whitesmoke;
+}
+.collapse {
+   color: whitesmoke;
+}
+.navbar .navbar-toggler{border:0;}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* headings and titles */
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+.main-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    
+}
+
+
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+
+.active{
+    opacity: 1 !important;
+    transition: all .5s;
+    transform: translateX(0%) scale(1) !important;
+}
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* full sixe image styling */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    opacity: 0;
+    transform: translateX(-80%)
+}
+
+.landing-image{
+    background: url("../../images/land.jpg") no-repeat bottom right fixed; 
+}
+
+.contact-image {
+    background: url("../../images/phone.jpg") no-repeat bottom right fixed; 
+}
+
+.container-callout { 
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-image{
+    background: url("../../images/projects.jpg") no-repeat bottom right fixed;
+}
+
+.hero-banner{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5); 
+}
+
+/* jumbotron styling */
+
+.jumbotron-header{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;}
+
+.jumbotron.lead{
+    margin: 25px 0;
+    color: darkgray;
+}
+
+
+
+/* section styling */
+
+.container-wrapper--blue {
+    background-color: #00C9C8;
+    color: white;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.alert-info{
+    background-color: #00C9C8 !important;
+    color: #d0d0d0 !important;
+    border-color: #4F9D9C !important;
+}
+  .contact-form{
+      color: #ffff;
+  }
+ .contact-text{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/*linebreak*/
+.linebreak{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #487494;}
+
+/* buttons */
+
+.fa-hand-point-right:before {
+    color: #00C9C8 !important;
+    font-size: 30px !important;
+}
+
+.fa-hand-point-left:before {
+    color: #00C9C8 !important;
+    font-size: 30px !important;
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: #00C9C8;
+    border-color: #82A0AA;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #BFFCF9;
+    border-color: #BFFCF9;
+    color: white;
+}
+
+.sizes{
+    max-width: 300px;
+    min-width: 150px;
+    max-height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    
+}
+
+#about{
+    font-size: 20px;
+}
+.card{
+    background-color: transparent !important;
+}
+@media only screen and (max-width: 576px){
+    .main-title{
+        font-size: 30px;
+    }
+}
